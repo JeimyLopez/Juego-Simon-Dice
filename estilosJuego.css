@@ -79,13 +79,18 @@
       }
       .container{
         display: flex;
+        flex-direction: column;
         width: 100%;
         height: 100%;
-        flex-direction: column;
       }
       .containerTitulo{
         display: flex;
         width: 100%;
+        font-size: 20px;
         flex-direction: column;
         text-align: center;
+      }
+      .containerTitulo h1{
+        color: blueviolet;
+        font-size: 20px;
       }
